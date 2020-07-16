@@ -485,7 +485,7 @@ nav a {
 }
 
 .welcome {
-  background-image: url(" ");
+  background-image: url("/img/bg-banner.png");
   background-size: cover;
   background-position: center;
   background: #0B132B;
@@ -1062,12 +1062,17 @@ textarea {
 }
 
 footer {
-  background: red;
+  background: #0B132B;
   padding: 2em 0;
   text-align: center;
   background: linear-gradient(260deg, #002855 27%, #0b132b 100%);
   overflow: hidden;
   max-height: 5em;
+}
+@media (min-width: 50em) {
+  footer {
+    max-height: 1em;
+  }
 }
 
 .social-icon {
@@ -1094,8 +1099,13 @@ footer {
 }
 
 .copyright {
-  margin-right: 1em;
+  margin-right: 5em;
   font-size: 0.8rem;
+}
+@media (min-width: 50em) {
+  .copyright {
+    margin-right: 1em;
+  }
 }
 .copyright::before {
   content: "";
@@ -1103,14 +1113,15 @@ footer {
   height: 1px;
   align-items: center;
   background: white;
-  margin-bottom: 2em;
-  margin-left: 30%;
+  margin-bottom: 0.75em;
+  margin-left: 31vw;
   max-width: 32%;
 }
 @media (min-width: 768px) {
   .copyright::before {
     margin-left: 38%;
     max-width: 23%;
+    margin-bottom: -0.07em;
   }
 }
 
@@ -1123,7 +1134,9 @@ footer {
   }
   @media (min-width: 50em) {
     .social-icon {
-      margin-left: 50%;
+      margin-left: 48%;
+      margin-top: -0.9%;
+      grid-template-columns: repeat(3, 2.9em);
     }
   }
 
@@ -1134,6 +1147,8 @@ footer {
   @media (min-width: 50em) {
     #footer-follow {
       margin-right: 5%;
+      margin-top: -2.5em;
+      font-size: 0.75rem;
     }
   }
 }
