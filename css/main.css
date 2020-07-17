@@ -329,7 +329,7 @@ body {
   background: #002855;
   background: linear-gradient(126deg, #002855 27%, #0b132b 100%);
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   body {
     font-size: 1.125rem;
   }
@@ -353,7 +353,7 @@ h1 {
   line-height: 1;
   font-size: 3.125rem;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   h1 {
     font-size: 4.25rem;
   }
@@ -369,7 +369,7 @@ h2 {
   font-weight: 400;
   color: #0353A4;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   h2 {
     font-size: 3rem;
   }
@@ -588,6 +588,12 @@ nav a {
   opacity: 40%;
 }
 
+@media (min-width: 768px) {
+  #php-icon {
+    height: 60px;
+    font-size: 44px;
+  }
+}
 .about-me {
   width: 90%;
   margin: 0 auto;
@@ -681,7 +687,7 @@ nav a {
   padding: 1em 0;
   background: #002855;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   .portfolio {
     height: 85vh;
   }
@@ -976,7 +982,7 @@ nav a {
   padding: 2.5em 0;
   height: 80vh;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   .contact {
     height: 70vh;
     margin-bottom: 2em;
@@ -985,7 +991,7 @@ nav a {
 .contact h1 {
   text-align: center;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   .contact h1 {
     font-size: 2.8rem;
   }
@@ -996,7 +1002,7 @@ form {
   flex-direction: column;
 }
 @supports (display: grid) {
-  @media (min-width: 50em) {
+  @media (min-width: 768px) {
     form {
       font-size: 0.8rem;
       display: grid;
@@ -1067,7 +1073,7 @@ footer {
   overflow: hidden;
   max-height: 5em;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   footer {
     max-height: 1em;
   }
@@ -1089,7 +1095,7 @@ footer {
   width: 15%;
   height: 15%;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   .social-icon {
     width: 10%;
     height: 1%;
@@ -1100,7 +1106,7 @@ footer {
   margin-left: 5vw;
   font-size: 0.8rem;
 }
-@media (min-width: 50em) {
+@media (min-width: 768px) {
   .copyright {
     margin-right: 1em;
   }
@@ -1130,7 +1136,7 @@ footer {
     grid-column-gap: 0.5em;
     margin-left: 50vw;
   }
-  @media (min-width: 50em) {
+  @media (min-width: 768px) {
     .social-icon {
       margin-top: -0.9%;
       grid-template-columns: repeat(3, 2.9em);
@@ -1141,7 +1147,7 @@ footer {
     margin-left: 5vw;
     margin-top: -1.1em;
   }
-  @media (min-width: 50em) {
+  @media (min-width: 768px) {
     #footer-follow {
       margin-right: 5%;
       margin-top: -2.5em;
