@@ -1097,7 +1097,7 @@ footer {
 }
 
 .copyright {
-  margin-right: 5em;
+  margin-left: 5vw;
   font-size: 0.8rem;
 }
 @media (min-width: 50em) {
@@ -1128,18 +1128,17 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 4em);
     grid-column-gap: 0.5em;
-    margin-left: 46%;
+    margin-left: 50vw;
   }
   @media (min-width: 50em) {
     .social-icon {
-      margin-left: 48%;
       margin-top: -0.9%;
       grid-template-columns: repeat(3, 2.9em);
     }
   }
 
   #footer-follow {
-    margin-right: 10%;
+    margin-left: 5vw;
     margin-top: -1.1em;
   }
   @media (min-width: 50em) {

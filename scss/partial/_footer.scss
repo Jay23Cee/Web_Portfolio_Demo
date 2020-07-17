@@ -49,7 +49,7 @@ footer {
 
 .copyright{
     
-    margin-right: 5em;
+    margin-left: 5vw;
     
     font-size: .8rem;
 
@@ -91,12 +91,12 @@ footer {
         grid-template-columns: repeat(3, 4em);
         grid-column-gap: .5em;
        
-        margin-left: 46%;
+        margin-left: 50vw;
 
        
         
         @include mq{
-            margin-left: 48%;
+           
             margin-top:-0.9%;
             grid-template-columns: repeat(3, 2.9em);
 
@@ -108,7 +108,7 @@ footer {
     }
 
     #footer-follow{
-        margin-right: 10%;
+        margin-left: 5vw;
         margin-top:-1.1em;
 
         @include mq{
